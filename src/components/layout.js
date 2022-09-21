@@ -34,15 +34,10 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `var(--space-5)`,
-            fontSize: `var(--font-sm)`,
-          }}
-        >
-          © {new Date().getFullYear()} &middot; Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <footer>
+          Copyright © <a href="https://thewebdev.tech">SimpleVideoApp</a>,
+          {new Date().getFullYear()},
+          All rights reserved        
         </footer>
       </div>
     </>
