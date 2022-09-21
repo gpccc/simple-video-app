@@ -35,9 +35,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          Copyright © <a href="https://thewebdev.tech">SimpleVideoApp</a>,
-          {new Date().getFullYear()},
-          All rights reserved        
+          Copyright © <a href="https://thewebdev.tech">SimpleVideoApp</a>, {new Date().getFullYear()}, All rights reserved
         </footer>
       </div>
     </>
